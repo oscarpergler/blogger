@@ -6,7 +6,7 @@ ARG APP_FILE
 
 EXPOSE 8080
 
-# opy the JAR file into the root and rename
+# copy the JAR file into the root and rename
 COPY ./target/${APP_FILE} app.jar
 
 # Run java with the jar file when the container starts up
