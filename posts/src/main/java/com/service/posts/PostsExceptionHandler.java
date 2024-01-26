@@ -1,4 +1,4 @@
-package com.service.hello;
+package com.service.posts;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ControllerAdvice
-class GreetingExceptionHandler {
+class PostsExceptionHandler {
 
     @ResponseBody
-    @ExceptionHandler(GreetingNotFoundException.class)
+    @ExceptionHandler(PostsNotFoundException.class)
     @ResponseStatus(HttpStatus.NOT_FOUND)
-    String greetingNotFoundHandler(GreetingNotFoundException ex) {
+    String postsNotFoundHandler(PostsNotFoundException ex) {
         return ex.getMessage();
     }
 }
