@@ -9,9 +9,6 @@ import jakarta.persistence.Column;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 
-
-// https://www.baeldung.com/spring-data-rest-relationships
-
 @Entity
 @Table(name = "POSTS")
 class Posts{
@@ -19,8 +16,8 @@ class Posts{
     private @Id @GeneratedValue @Column(name = "POST_ID") Long pid;
     private String title;
     private String text;
-    private Long uid;
 
+    private Long uid;
     Posts() {}
 
     Posts(String title, String text, Long uid) {

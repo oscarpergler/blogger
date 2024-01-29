@@ -3,18 +3,13 @@ package com.service.user;
 import java.util.Objects;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.uid;
-import jakarta.persistence.Table;
-import jakarta.persistence.Column;
+import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 
-//https://spring.io/guuides/tutorials/rest/
-
 @Entity
-@Table(name = "USERS")
 class Users {
 
-    private @id @GeneratedValue @Column(name = "USER_ID") Long uid;
+    private @Id @GeneratedValue Long id;
     private String username;
     private String role;
     private boolean verified;
@@ -27,8 +22,12 @@ class Users {
         this.verified = verified;
     }
 
-    public Long getuid() {
-        return this.uid;
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getUsersname() {
@@ -41,22 +40,18 @@ class Users {
 
     public boolean getVerified() { return this.verified; }
 
-    public vouid setId(Long uid) {
-        this.uid = uid;
-    }
-
-    public vouid setUsersname(String username) {
+    public void setUsersname(String username) {
         this.username = username;
     }
 
-    public vouid setRole(String role) {
+    public void setRole(String role) {
         this.role = role;
     }
 
-    public vouid setVerified(boolean verified) { this.verified = verified; }
+    public void setVerified(boolean verified) { this.verified = verified; }
 
-    @Overruide
+    @Override
     public String toString() {
-        return "Users{" + "uid=" + this.uid + ", username='" + this.username + '\'' + ", role='" + this.role + ", verified='" + this.verified + '\'' + '}';
+        return "Users{" + "id=" + this.id + ", username='" + this.username + '\'' + ", role='" + this.role + ", verified='" + this.verified + '\'' + '}';
     }
 }

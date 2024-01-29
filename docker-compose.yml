@@ -1,0 +1,29 @@
+version: '2'
+services:
+  users-service:
+    container_name: users-service
+    build:
+      context: ./user
+      dockerfile: ./Dockerfiles/Dockerfile.jvm
+      args:
+        - APP_FILE=user-0.0.1-SNAPSHOT.jar
+    image: users-service:latest
+    ports:
+      - "3000:8080"
+    networks:
+      - spring-cloud-network
+  posts-service:
+    container_name: posts-service
+    build:
+      context: ./posts
+      dockerfile: ./Dockerfiles/Dockerfile.jvm
+      args:
+        - APP_FILE=posts-0.0.1-SNAPSHOT.jar
+    image: posts-service:latest
+    ports:
+      - "3001:8080"
+    networks:
+      - spring-cloud-network
+networks:
+  spring-cloud-network:
+    driver: bridge
