@@ -3,8 +3,8 @@ services:
   users-service:
     container_name: users-service
     build:
-      context: ./user
-      dockerfile: ./Dockerfiles/Dockerfile.jvm
+      context: user
+      dockerfile: user/Dockerfiles/Dockerfile.jvm
       args:
         - APP_FILE=user-0.0.1-SNAPSHOT.jar
     image: users-service:latest
@@ -15,8 +15,8 @@ services:
   posts-service:
     container_name: posts-service
     build:
-      context: ./posts
-      dockerfile: ./Dockerfiles/Dockerfile.jvm
+      context: posts
+      dockerfile: posts/Dockerfiles/Dockerfile.jvm
       args:
         - APP_FILE=posts-0.0.1-SNAPSHOT.jar
     image: posts-service:latest
