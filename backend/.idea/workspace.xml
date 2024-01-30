@@ -4,57 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fbc1bbd-9795-4512-9e7c-103841b0c62f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/Dockerfiles/Dockerfile.jvm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/Dockerfiles/Dockerfile.native" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/src/main/java/com/service/posts/LoadDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/src/main/java/com/service/posts/Posts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/src/main/java/com/service/posts/PostsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/src/main/java/com/service/posts/PostsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/src/main/java/com/service/posts/PostsExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/src/main/java/com/service/posts/PostsNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/src/main/java/com/service/posts/PostsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/posts/src/test/java/com/service/hello/HelloApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/Dockerfiles/Dockerfile.jvm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/Dockerfiles/Dockerfile.native" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/src/main/java/com/service/user/LoadDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/src/main/java/com/service/user/Users.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/src/main/java/com/service/user/UsersApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/src/main/java/com/service/user/UsersController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/src/main/java/com/service/user/UsersExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/src/main/java/com/service/user/UsersNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/src/main/java/com/service/user/UsersRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-services/user/src/test/java/com/service/hello/HelloApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="3fbc1bbd-9795-4512-9e7c-103841b0c62f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api-gateway/gs-gateway" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
