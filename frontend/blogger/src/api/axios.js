@@ -1,4 +1,4 @@
-import axios from '../axios';
+import axios from 'axios';
 
 /*
 CURRENTLY: (using 3000 for CORS-testing untill gateway is finished)
@@ -8,8 +8,6 @@ CURRENTLY: (using 3000 for CORS-testing untill gateway is finished)
     8080 = gateway
 */
 
-const axios = axios.create({
+export default axios.create({
     baseURL: 'http://localhost:3000'
 });
-
-export default axios;

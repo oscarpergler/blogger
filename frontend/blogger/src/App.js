@@ -1,28 +1,11 @@
 import './App.css';
-import axios from './api/axios';
-import useState from 'react';
+import UserTable from './components/UserTable.jsx';
 
 function App() {
 
-  const [users, setUsers] = useState([]);
-
-  axios.get("/users").then((response) => {
-    setUsers(response);
-    console.log(response);
-  })
-
   return (
     <div className="App">
-      <h1>Users</h1>
-      {
-        users.map((user) => {
-          return (
-            <table>
-
-            </table>
-          )
-        })
-      }
+      <UserTable />
     </div>
   );
 }
