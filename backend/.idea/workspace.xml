@@ -5,51 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fbc1bbd-9795-4512-9e7c-103841b0c62f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/gateway/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/gateway/gateway/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/test/java/com/gateway/gateway/GatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/test/java/com/gateway/gateway/GatewayApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/Dockerfiles/Dockerfile.jvm" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/Dockerfiles/Dockerfile.jvm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/Dockerfiles/Dockerfile.native" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/Dockerfiles/Dockerfile.native" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/src/main/java/com/service/posts/LoadDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/src/main/java/com/service/posts/LoadDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/src/main/java/com/service/posts/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/src/main/java/com/service/posts/Posts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/src/main/java/com/service/posts/PostsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/src/main/java/com/service/posts/PostsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/src/main/java/com/service/posts/PostsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/src/main/java/com/service/posts/PostsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/src/main/java/com/service/posts/PostsExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/src/main/java/com/service/posts/PostsExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/src/main/java/com/service/posts/PostsNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/src/main/java/com/service/posts/PostsNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/src/main/java/com/service/posts/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/src/main/java/com/service/posts/PostsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/src/test/java/com/service/hello/HelloApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/src/test/java/com/service/hello/HelloApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/Dockerfiles/Dockerfile.jvm" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/Dockerfiles/Dockerfile.jvm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/Dockerfiles/Dockerfile.native" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/Dockerfiles/Dockerfile.native" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/service/user/LoadDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/service/user/LoadDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/service/user/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/service/user/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/service/user/UsersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/service/user/UsersApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/service/user/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/service/user/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/service/user/UsersExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/service/user/UsersExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/service/user/UsersNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/service/user/UsersNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/service/user/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/service/user/UsersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/test/java/com/service/hello/HelloApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/java/com/service/hello/HelloApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/src/api/axios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/src/components/UserTable.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/blogger/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +167,7 @@
       <workItem from="1706265049599" duration="11663000" />
       <workItem from="1706521201468" duration="6473000" />
       <workItem from="1706702639601" duration="2007000" />
-      <workItem from="1706795023273" duration="1017000" />
+      <workItem from="1706795023273" duration="1711000" />
     </task>
     <servers />
   </component>
