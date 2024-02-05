@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fbc1bbd-9795-4512-9e7c-103841b0c62f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/eureka/Dockerfiles/Dockerfile.jvm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/Dockerfiles/Dockerfile.native" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/Dockerfiles/Dockerfile.jvm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/Dockerfiles/Dockerfile.native" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +167,7 @@
       <workItem from="1706521201468" duration="6473000" />
       <workItem from="1706702639601" duration="2007000" />
       <workItem from="1706795023273" duration="2355000" />
-      <workItem from="1707125095686" duration="14565000" />
+      <workItem from="1707125095686" duration="16432000" />
     </task>
     <servers />
   </component>

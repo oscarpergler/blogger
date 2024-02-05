@@ -7,6 +7,7 @@ services:
       dockerfile: /Dockerfiles/Dockerfile.jvm
       args:
         - APP_FILE=eureka-0.0.1-SNAPSHOT.jar
+    restart: always
     ports:
       - '8761:8761'
     networks:
@@ -18,6 +19,7 @@ services:
       dockerfile: /Dockerfiles/Dockerfile.jvm
       args:
         - APP_FILE=gateway-0.0.1-SNAPSHOT.jar
+    restart: always
     ports:
       - '8080:8080'
     networks:
@@ -38,6 +40,7 @@ services:
       - spring-cloud-network
     depends_on:
       - eureka-service
+      - gateway-service
   posts-service:
     container_name: posts-service
     build:
@@ -52,6 +55,7 @@ services:
       - spring-cloud-network
     depends_on:
       - eureka-service
+      - gateway-service
 networks:
   spring-cloud-network:
     driver: bridge
