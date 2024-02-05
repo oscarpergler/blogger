@@ -1,29 +1,57 @@
 version: '2'
 services:
+  eureka-service:
+    container_name: eureka-service
+    build:
+      context: eureka
+      dockerfile: /Dockerfiles/Dockerfile.jvm
+      args:
+        - APP_FILE=eureka-0.0.1-SNAPSHOT.jar
+    ports:
+      - '8761:8761'
+    networks:
+      - spring-cloud-network
+  gateway-service:
+    container_name: gateway-service
+    build:
+      context: gateway
+      dockerfile: /Dockerfiles/Dockerfile.jvm
+      args:
+        - APP_FILE=gateway-0.0.1-SNAPSHOT.jar
+    ports:
+      - '8080:8080'
+    networks:
+      - spring-cloud-network
+    depends_on:
+      - eureka-service
   users-service:
     container_name: users-service
     build:
-      context: user
+      context: user-service
       dockerfile: /Dockerfiles/Dockerfile.jvm
       args:
-        - APP_FILE=user-0.0.1-SNAPSHOT.jar
+        - APP_FILE=user-service-0.0.1-SNAPSHOT.jar
     image: users-service:latest
     ports:
-      - "3000:8080"
+      - "8082:8082"
     networks:
       - spring-cloud-network
+    depends_on:
+      - eureka-service
   posts-service:
     container_name: posts-service
     build:
-      context: posts
+      context: posts-service
       dockerfile: /Dockerfiles/Dockerfile.jvm
       args:
-        - APP_FILE=posts-0.0.1-SNAPSHOT.jar
+        - APP_FILE=posts-service-0.0.1-SNAPSHOT.jar
     image: posts-service:latest
     ports:
-      - "3001:8080"
+      - "8083:8083"
     networks:
       - spring-cloud-network
+    depends_on:
+      - eureka-service
 networks:
   spring-cloud-network:
     driver: bridge
