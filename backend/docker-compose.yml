@@ -1,39 +1,27 @@
-version: '2'
+version: '3.3'
+
+# https://github.com/jonashackt/cxf-spring-cloud-netflix-docker/tree/buildpacks-paketo
+
 services:
   eureka-service:
-    container_name: eureka-service
-    build:
-      context: eureka
-      dockerfile: /Dockerfiles/Dockerfile.jvm
-      args:
-        - APP_FILE=eureka-0.0.1-SNAPSHOT.jar
-    restart: always
+    restart: unless-stopped
+    image: eureka:0.0.1-SNAPSHOT
     ports:
       - '8761:8761'
     networks:
       - spring-cloud-network
   gateway-service:
-    container_name: gateway-service
-    build:
-      context: gateway
-      dockerfile: /Dockerfiles/Dockerfile.jvm
-      args:
-        - APP_FILE=gateway-0.0.1-SNAPSHOT.jar
-    restart: always
+    restart: unless-stopped
+    image: gateway:0.0.1-SNAPSHOT
     ports:
       - '8080:8080'
     networks:
       - spring-cloud-network
     depends_on:
       - eureka-service
-  users-service:
-    container_name: users-service
-    build:
-      context: user-service
-      dockerfile: /Dockerfiles/Dockerfile.jvm
-      args:
-        - APP_FILE=user-service-0.0.1-SNAPSHOT.jar
-    image: users-service:latest
+  user-service:
+    restart: unless-stopped
+    image: user-service:0.0.1-SNAPSHOT
     ports:
       - "8082:8082"
     networks:
@@ -42,13 +30,8 @@ services:
       - eureka-service
       - gateway-service
   posts-service:
-    container_name: posts-service
-    build:
-      context: posts-service
-      dockerfile: /Dockerfiles/Dockerfile.jvm
-      args:
-        - APP_FILE=posts-service-0.0.1-SNAPSHOT.jar
-    image: posts-service:latest
+    restart: unless-stopped
+    image: posts-service:0.0.1-SNAPSHOT
     ports:
       - "8083:8083"
     networks:

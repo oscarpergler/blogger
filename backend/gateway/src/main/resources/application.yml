@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: gateway-service
+  cloud:
+    refresh:
+      enabled: false
 
 eureka:
   client:
@@ -11,7 +14,7 @@ eureka:
     healthcheck:
       enabled: true
     serviceUrl:
-      defaultZone: ${EUREKA_URL:http://eureka:8761/eureka}
+      defaultZone: ${EUREKA_URL:http://eureka-service:8761/eureka} # Link to eureka-service container
 
 jwt:
   secret: screte-value
