@@ -16,12 +16,5 @@ GraalVM:<br>
 ![5b(1)](https://github.com/oscarpergler/blogger/assets/70218472/7350cb7b-1b61-4233-8b79-99095b5d1d13)
 
 ### Usage
-
-There are two different ways to start the microservices:
-
-For each service: ```mvn clean package -DskipTests```
-
-then<br>
-```docker-compose -f docker-compose-native.yml up --build -d``` for a native build<br>
-or<br>
-```docker-compose up --build -d``` to run the jar files<br>
+JIT: ```docker-compose -f build.yml up && docker-compose up```
+AOT: ```docker-compose -f build-native.yml up && docker-compose up```
